@@ -45,7 +45,7 @@ const projectsData = [
         description: 'A project showcasing innovative web design and functionality.',
         imgSrc: tesla,
         githubLink: 'https://github.com/i-lua/tesla-clone-project.git',
-        liveLink: 'https://tesla-clone-project-fc7c7.web.app/'
+        liveLink: 'https://teslaproject.ilua.tech/'
     },
 ];
 

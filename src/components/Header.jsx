@@ -1,4 +1,6 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import resume from "../assets/IssacLuaResume.pdf";
 
 const Header = ({ toggleModal }) => {
   return (
@@ -24,14 +26,14 @@ const Header = ({ toggleModal }) => {
           >
             <i className="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/i-lua" className="social__link click">
-            <i className="fab fa-github"></i>
-          </a>
           <a
-            href="./assets/David_Bragg_Resume.pdf"
+            href="https://github.com/i-lua"
             target="_blank"
             className="social__link click"
           >
+            <i className="fab fa-github"></i>
+          </a>
+          <a href={resume} target="_blank" className="social__link click">
             <i className="fas fa-file-pdf"></i>
           </a>
         </div>

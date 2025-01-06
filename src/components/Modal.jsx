@@ -14,7 +14,7 @@ function Modal({ toggleModal, isModalOpen }) {
 
     emailjs
       .sendForm(
-        "service_q87kve8",
+        "service_2quq61g",
         "template_m90imjd",
         event.target,
         "4qWfXumD-QtpTJXVK"
@@ -30,7 +30,7 @@ function Modal({ toggleModal, isModalOpen }) {
       .catch(() => {
         loading.classList.remove("modal__overlay--visible");
         alert(
-          "The email service is temporarily unavailable. Please contact me directly at issaclua@gmail.com"
+          "The email service is temporarily unavailable. Please contact me directly at issaclua@ilua.tech"
         );
       });
   };

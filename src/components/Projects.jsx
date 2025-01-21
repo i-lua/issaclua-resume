@@ -5,6 +5,7 @@ import brainwave from "../assets/brainwaveCapture.PNG";
 import ultraverse from "../assets/ultraverseCapture.PNG";
 import moviesearch from "../assets/MovieSearchCapture.PNG";
 import tesla from "../assets/TeslaCapture.PNG";
+import ecommerce from "../assets/ecommerce.PNG"
 
 const projectsData = [
   {
@@ -42,6 +43,15 @@ const projectsData = [
     imgSrc: moviesearch,
     githubLink: "https://github.com/i-lua/week6-project.git",
     liveLink: "https://moviesearchproject.ilua.tech/",
+  },
+  {
+    title: "Ecommerce Library Project",
+    tech: "HTML, CSS, JavaScript, React",
+    description:
+      "A project showcasing ecommerce library.",
+    imgSrc: ecommerce,
+    githubLink: "https://github.com/i-lua/week5-E-CommerceWithReact.git",
+    liveLink: "https://week5-e-commerce-with-react.vercel.app/",
   },
   {
     title: "Tesla Clone Project",

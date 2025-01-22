@@ -6,8 +6,18 @@ import ultraverse from "../assets/ultraverseCapture.PNG";
 import moviesearch from "../assets/MovieSearchCapture.PNG";
 import tesla from "../assets/TeslaCapture.PNG";
 import ecommerce from "../assets/ecommerce.PNG"
+import bodyshopfitness from "../assets/bodyshopfitness.PNG"
 
 const projectsData = [
+  {
+    title: "The Body Shop Fitness",
+    tech: "HTML, CSS, Tailwind CSS, JavaScript",
+    description:
+      "A modern and responsive fitness gym website showcasing classes, trainers, membership plans, and more about the gym.",
+    imgSrc: bodyshopfitness,
+    githubLink: "https://github.com/i-lua/thebodyshopfitness.git",
+    liveLink: "https://bodyshopfitness.co/"
+  },
   {
     title: "Apple Clone Project",
     tech: "HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Vue, Vuex",

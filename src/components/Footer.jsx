@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import logo from "../assets/illogo.webp";
-import resume from "../assets/IssacLuaResume.pdf";
+import resume from "../assets/iluaSoftwareResume.pdf";
 
 const Footer = ({ toggleModal }) => {
   const currentYear = new Date().getFullYear();

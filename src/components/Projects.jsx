@@ -19,24 +19,6 @@ const projectsData = [
     liveLink: "https://bodyshopfitness.co/"
   },
   {
-    title: "Apple Clone Project",
-    tech: "HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Vue, Vuex",
-    description:
-      "A clone of the Apple website built with modern web technologies.",
-    imgSrc: apple,
-    githubLink: "https://github.com/i-lua/apple-clone-project.git",
-    liveLink: "https://appleproject.ilua.tech/",
-  },
-  {
-    title: "Brainwave Project",
-    tech: "HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Vue, Vuex",
-    description:
-      "A project showcasing innovative web design and functionality.",
-    imgSrc: brainwave,
-    githubLink: "https://github.com/i-lua/brainwave-clone-project.git",
-    liveLink: "https://brainwaveproject.ilua.tech/",
-  },
-  {
     title: "Ultraverse Project",
     tech: "HTML, CSS, JavaScript, Vue, Vuex",
     description:
@@ -55,6 +37,15 @@ const projectsData = [
     liveLink: "https://moviesearchproject.ilua.tech/",
   },
   {
+    title: "Brainwave Project",
+    tech: "HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Vue, Vuex",
+    description:
+      "A project showcasing innovative web design and functionality.",
+    imgSrc: brainwave,
+    githubLink: "https://github.com/i-lua/brainwave-clone-project.git",
+    liveLink: "https://brainwaveproject.ilua.tech/",
+  },
+  {
     title: "Ecommerce Library Project",
     tech: "HTML, CSS, JavaScript, React",
     description:
@@ -71,6 +62,15 @@ const projectsData = [
     imgSrc: tesla,
     githubLink: "https://github.com/i-lua/tesla-clone-project.git",
     liveLink: "https://teslaproject.ilua.tech/",
+  },
+  {
+    title: "Apple Clone Project",
+    tech: "HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Vue, Vuex",
+    description:
+      "A clone of the Apple website built with modern web technologies.",
+    imgSrc: apple,
+    githubLink: "https://github.com/i-lua/apple-clone-project.git",
+    liveLink: "https://appleproject.ilua.tech/",
   },
 ];
 

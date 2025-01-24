@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import resume from "../assets/IssacLuaResume.pdf";
+import resume from "../assets/iluaSoftwareResume.pdf";
 
 const Header = ({ toggleModal }) => {
   return (

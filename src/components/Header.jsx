@@ -6,7 +6,7 @@ import resume from "../assets/iluaSoftwareResume.pdf";
 const Header = ({ toggleModal }) => {
   return (
     <header className="header">
-      <div className="header__content">
+      <div className="header__content" data-aos="fade-up">
         <h1 className="title">Hey</h1>
         <h1 className="title blue">I'm Issac</h1>
         <p className="header__para">

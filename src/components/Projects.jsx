@@ -79,7 +79,7 @@ const Projects = () => {
     <section id="projects">
       <div className="container">
         <div className="row">
-          <h1 className="section__title">
+          <h1 className="section__title" data-aos="fade-up">
             Here are some of my <span className="blue">projects</span>
           </h1>
           <ul className="project__list">

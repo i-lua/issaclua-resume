@@ -3,7 +3,7 @@ import '../App.css'
 
 const Project = ({ title, tech, description, imgSrc, githubLink, liveLink }) => {
     return (
-        <li className="projects">
+        <li className="projects" data-aos="fade-up">
             <div className="project__wrapper">
                 <img src={imgSrc} className="project__img" alt={`${title} screenshot`} />
                 <div className="project__wrapper--bg"></div>

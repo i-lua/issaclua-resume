@@ -2,6 +2,7 @@
 import React from "react";
 import resume from "../assets/iluaSoftwareResume.pdf";
 
+
 const Header = ({ toggleModal }) => {
   return (
     <header className="header">

@@ -7,16 +7,17 @@ import moviesearch from "../assets/MovieSearchCapture.PNG";
 import tesla from "../assets/TeslaCapture.PNG";
 import ecommerce from "../assets/ecommerce.PNG"
 import bodyshopfitness from "../assets/bodyshopfitness.PNG"
+import skinstric from "../assets/skinstric.PNG"
 
 const projectsData = [
   {
-    title: "The Body Shop Fitness",
-    tech: "HTML, CSS, Tailwind CSS, JavaScript",
+    title: "Apple Clone Project",
+    tech: "HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Vue, Vuex",
     description:
-      "A modern and responsive fitness gym website showcasing classes, trainers, membership plans, and more about the gym.",
-    imgSrc: bodyshopfitness,
-    githubLink: "https://github.com/i-lua/thebodyshopfitness.git",
-    liveLink: "https://bodyshopfitness.co/"
+      "A clone of the Apple website built with modern web technologies.",
+    imgSrc: apple,
+    githubLink: "https://github.com/i-lua/apple-clone-project.git",
+    liveLink: "https://appleproject.ilua.tech/",
   },
   {
     title: "Ultraverse Project",
@@ -26,6 +27,24 @@ const projectsData = [
     imgSrc: ultraverse,
     githubLink: "https://github.com/i-lua/issac-internship.git",
     liveLink: "https://ultraverseinternship.ilua.tech/",
+  },
+  {
+    title: "Skinstric Internship",
+    tech: "HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Vue, Vuex",
+    description:
+      "An AI-powered skincare platform that. Sending and gathering data from an API links. ",
+    imgSrc: skinstric,
+    githubLink: "https://github.com/i-lua/skinstric.git",
+    liveLink: "https://skinstric-rose.vercel.app/",
+  },
+  {
+    title: "The Body Shop Fitness",
+    tech: "HTML, CSS, Tailwind CSS, JavaScript",
+    description:
+      "A modern and responsive fitness gym website showcasing classes, trainers, membership plans, and more about the gym.",
+    imgSrc: bodyshopfitness,
+    githubLink: "https://github.com/i-lua/thebodyshopfitness.git",
+    liveLink: "https://bodyshopfitness.co/"
   },
   {
     title: "Movie Search Project",
@@ -62,15 +81,6 @@ const projectsData = [
     imgSrc: tesla,
     githubLink: "https://github.com/i-lua/tesla-clone-project.git",
     liveLink: "https://teslaproject.ilua.tech/",
-  },
-  {
-    title: "Apple Clone Project",
-    tech: "HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Vue, Vuex",
-    description:
-      "A clone of the Apple website built with modern web technologies.",
-    imgSrc: apple,
-    githubLink: "https://github.com/i-lua/apple-clone-project.git",
-    liveLink: "https://appleproject.ilua.tech/",
   },
 ];
 

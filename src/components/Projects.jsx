@@ -1,6 +1,5 @@
 import React from "react";
 import Project from "./Project";
-import apple from "../assets/appleCapture.PNG";
 import brainwave from "../assets/brainwaveCapture.PNG";
 import ultraverse from "../assets/ultraverseCapture.PNG";
 import moviesearch from "../assets/MovieSearchCapture.PNG";
@@ -10,15 +9,6 @@ import bodyshopfitness from "../assets/bodyshopfitness.PNG"
 import skinstric from "../assets/skinstric.PNG"
 
 const projectsData = [
-  {
-    title: "Apple Clone Project",
-    tech: "HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Vue, Vuex",
-    description:
-      "A clone of the Apple website built with modern web technologies.",
-    imgSrc: apple,
-    githubLink: "https://github.com/i-lua/apple-clone-project.git",
-    liveLink: "https://appleproject.ilua.tech/",
-  },
   {
     title: "Ultraverse Project",
     tech: "HTML, CSS, JavaScript, Vue, Vuex",
